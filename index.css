@@ -59,3 +59,13 @@ p {
     background-color: var(--dark-green);
 }
 
+.deer {
+    font-family: 'Lobster Two', cursive;
+    color: var(--snow);
+    background-color: var(--gold);
+}
+
+.deer .container {
+    color: var(--snow);
+    background-color: var(--bright-red);
+}
