@@ -1,8 +1,10 @@
 :root {
   --wine-red: #c7375f;
+  --red: #aa253c;
   --bright-red: #d42d2f;
   --dark-green: #344d2f;
   --light-green: #77a047;
+  --light-blue: #58d4d5;
   --gold: #fac57d;
   --snow: #f0f4f7;
 }
@@ -20,7 +22,7 @@ body,
 }
 
 body {
-    background-color: var(--wine-red);
+    background-color: var(--red);
     height: 100vh;
 }
 
@@ -45,13 +47,13 @@ p {
 .christmas {
     font-family: 'Mountains of Christmas', cursive;
     color: var(--dark-green);
-    background-color: var(--wine-red);
+    background-color: var(--red);
 }
 
 .snow {
     font-family: 'Lobster Two', cursive;
     color: var(--snow);
-    background-color: var(--snow);
+    background-color: var(--light-blue);
 }
 
 .snow .container {
